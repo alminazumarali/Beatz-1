@@ -1,0 +1,16 @@
+.playlistCardContainer{
+    color:white;
+    display:flex;
+    flex-direction: row;
+    padding:20px;
+    align-items: center;
+    gap:10px;
+}
+.playlistSongImage{
+    height:80px;
+    width:80px;
+    border-radius:50%;
+}
+.playlistSongTitle{
+    font-size: 20px;
+}

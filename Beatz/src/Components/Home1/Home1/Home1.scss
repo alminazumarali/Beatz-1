@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+.Home1-container{
+    background-color: black;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+}
+.home-outlet{
+    // background-color: aquamarine;
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    // overflow:scroll;
+}

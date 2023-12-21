@@ -1,0 +1,21 @@
+.lib-container{
+    height: 200px;
+    width:100%;
+}
+.lib-title{
+    font-size:50px;
+    font-weight:bold;
+}
+.lib-content{
+    flex:1;
+    padding:20px;
+    display:grid;
+    grid-auto-flow:column;
+    grid-gap:20px;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.lib-content::-webkit-scrollbar {
+    display: none;
+}

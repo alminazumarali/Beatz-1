@@ -1,0 +1,17 @@
+.content{
+    width:100%;
+    height: 100%;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+}
+.content-lib{
+    height:200px;
+    // background-color: red;
+    overflow-x: auto;
+}
+.wide-content {
+    width: 101%;
+  }
